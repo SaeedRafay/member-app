@@ -1,0 +1,27 @@
+{
+  "name": "member-app",
+  "version": "1.0.0",
+  "description": "A simple members app on Node.js with Express.js and Handlebars templating engine.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaeedRafay/member-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaeedRafay/member-app/issues"
+  },
+  "homepage": "https://github.com/SaeedRafay/member-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  }
+}
